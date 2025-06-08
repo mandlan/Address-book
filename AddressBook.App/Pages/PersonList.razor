@@ -1,0 +1,41 @@
+﻿@page "/"
+
+@page "/personlist"
+
+@inherits PersonListBase
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>List of People</h3>
+        <hr/>
+    </div>
+</div>
+@if (People == null)
+{ 
+    <div class="spinner"></div>
+}
+else
+            {
+
+<div class="card-deck">
+
+ @foreach (var person in People)
+  {
+     <div class="card m-3" style="min-width: 18rem; max-width:30.5%;">
+      <div class="card-header">
+      <h5>@person.FirstName @person.LastName</h5>
+      </div>
+      <div class="card-footer text-center">
+      <a href="@($"/persondetalis/{person.PersonID}")" class="btn btn-primary m-1">View</a>
+      <a href="@($"/editperson/{person.PersonID}")" class="btn btn-primary m-1">Edit</a>
+      </div>
+      </div>
+    }
+
+</div>
+      
+
+}
+
+
+

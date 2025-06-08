@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.App\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/Tewr.Blazor.FileReader" Path="C:\Users\KhanyisoL\.nuget\packages\tewr.blazor.filereader\2.0.0.20242\build\..\staticwebassets\" />
+</StaticWebAssets>

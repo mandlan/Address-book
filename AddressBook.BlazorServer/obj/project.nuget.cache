@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FUA6oNZb/gIG+hHzzHhc/DkEHOCL6sOGfoQ5pfmiyJl4Hg2OGHIn8PSpGvNKSdDJkzeEHEo/MsUu81HDLQU/zg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KhanyisoL\\source\\repos\\AddressBook.Api\\AddressBook.BlazorServer\\AddressBook.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KhanyisoL\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

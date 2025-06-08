@@ -1,0 +1,31 @@
+﻿@page "/suburb"
+@inherits ViewSuburbBase
+<h3>Suburbs</h3>
+
+<form>
+    <table class="form-group">
+       <thead>
+           <tr>
+               <th>
+                   Suburb ID
+               </th>
+               <th>
+                   Street Name
+               </th>
+               <th>
+                   Postal Code
+               </th>
+           </tr>
+       </thead>
+        <tbody>
+            @foreach(var sub in Suburbs)
+            {
+                <tr>
+                    <td>@sub.SuburbID</td>
+                    <td>@sub.StreetName</td>
+                    <td>@sub.PostalCode</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

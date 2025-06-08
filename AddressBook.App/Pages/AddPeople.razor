@@ -1,0 +1,97 @@
+﻿@page "/addperson"
+@inherits AddPersonBase
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Add Person</h3>
+            <hr />
+            <label>@Message</label>
+        </div>
+    </div>
+    <div>
+        <EditForm Model="@Person" OnValidSubmit="@HandleValidSubmit">
+            <table class="form-group">
+                @*<tr>
+                    <td>
+                        <lable for="Name" class="control-label">Person ID:</lable>
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" @bind-value="Person.PersonID" />
+                    </td>
+                </tr>*@
+                <tr>
+                   <td>
+                       <lable for="Name" class="control-label">First Name:</lable>
+                   </td>
+                   <td>
+                       <input type="text" class="form-control" @bind-value="Person.FirstName" />
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <lable for="Name" class="control-label">Last Name:</lable>
+                   </td>
+                   <td>
+                       <input type="text" class="form-control" @bind-value="Person.LastName" />
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <lable for="Name" class="control-label">Phone Number:</lable>
+                   </td>
+                   <td>
+                       <input type="text" class="form-control" @bind-value="Person.PhoneNumber" />
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <lable for="Name" class="control-label">Email :</lable>
+                   </td>
+                   <td>
+                       <input type="text" class="form-control" @bind-value="Person.Email" />
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <lable for="Name" class="control-label">Address Line 1:</lable>
+                   </td>
+                   <td>
+                       <input type="text" class="form-control" @bind-value="Person.AddressLine1" />
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <lable for="Name" class="control-label">Address Line 2:</lable>
+                   </td>
+                   <td>
+                       <input type="text" class="form-control" @bind-value="Person.AddressLine2" />
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <lable for="Name" class="control-label">Suburb:</lable>
+                   </td>
+                   <td>
+                       <InputSelect @bind-Value="Person.SuburbID" class="form-control">
+                           @foreach(var sub in Suburbs)
+                           {
+                                <option value="@sub.SuburbID">
+                                    @sub.StreetName
+                                </option>
+                           }
+                       </InputSelect>
+                   </td>
+               </tr>
+                <tr>
+                    <td>
+                       
+                      <button type="submit" class="btn btn-success" @*@onclick="HandleValidSubmit"*@>Add Person</button>
+
+                    </td>
+                </tr>
+            </table>
+            <label class="text-success">@Message</label>
+        </EditForm>
+    </div>
+
+

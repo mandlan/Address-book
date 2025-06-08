@@ -1,0 +1,12 @@
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\bin\Debug\net5.0\AddressBook.Models.deps.json
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\bin\Debug\net5.0\AddressBook.Models.dll
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\bin\Debug\net5.0\ref\AddressBook.Models.dll
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\bin\Debug\net5.0\AddressBook.Models.pdb
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\obj\Debug\net5.0\AddressBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\obj\Debug\net5.0\AddressBook.Models.AssemblyInfoInputs.cache
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\obj\Debug\net5.0\AddressBook.Models.AssemblyInfo.cs
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\obj\Debug\net5.0\AddressBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\obj\Debug\net5.0\AddressBook.Models.dll
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\obj\Debug\net5.0\ref\AddressBook.Models.dll
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\obj\Debug\net5.0\AddressBook.Models.pdb
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.Models\obj\Debug\net5.0\AddressBook.Models.csproj.AssemblyReference.cache

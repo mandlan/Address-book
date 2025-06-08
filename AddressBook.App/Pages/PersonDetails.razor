@@ -1,0 +1,38 @@
+﻿@page "/persondetalis/{id}"
+@page "/persondetails"
+@inherits PersonDetailsBase
+
+@if (Person == null || Person.Suburb == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3>@Person.FirstName @Person.LastName</h3>
+                </div>
+                <div class="card-body text-center">
+                    <h6>Phone Number  : @Person.PhoneNumber</h6>
+                    <h6>Email Address : @Person.Email</h6>
+                    <h6>Address Line 1: @Person.AddressLine1</h6>
+                    <h6>Address Line 2: @Person.AddressLine2</h6>
+                    <h6>Suburb       :@Person.Suburb.StreetName</h6>
+                    <h6>Postal Code   :@Person.Suburb.PostalCode</h6>
+                    @*<h6>City:         :@Person.City.CityName</h6>*@
+                </div>
+                <div class="card-footer text-center">
+                    <a href="@($"/personlist")" class="btn btn-primary">Back</a>
+                    <a href="@($"/editperson/{Person.PersonID}")" class="btn btn-primary">Edit</a>
+                    @*<a @onclick="@Delete_Click" class="btn btn-danger">Delete</a>*@
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+
+
+

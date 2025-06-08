@@ -1,0 +1,13 @@
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\AddressBook.Web.csproj.AssemblyReference.cache
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\AddressBook.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\AddressBook.Web.AssemblyInfoInputs.cache
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\AddressBook.Web.AssemblyInfo.cs
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\AddressBook.Web.csproj.CoreCompileInputs.cache
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\AddressBook.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\AddressBook.Web.RazorComponent.input.cache
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\RazorDeclaration\Pages\PersonList.razor.g.cs
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\KhanyisoL\source\repos\AddressBook.Api\AddressBook.BlazorServer\obj\Debug\net5.0\AddressBook.Web.RazorComponent.output.cache

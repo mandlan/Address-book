@@ -1,0 +1,87 @@
+﻿@page "/editperson/{id}"
+
+@inherits EditPersonBase
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Details for @Person.FirstName @Person.LastName</h3>
+        @*<DataAnnotationsValidator></DataAnnotationsValidator>
+        <ValidationSummary></ValidationSummary>*@
+        <hr />
+    </div>
+</div>
+<div>
+    <EditForm Model="@Person" OnValidSubmit="@HandleValidSubmit">
+        <table class="form-group">
+            <tr>
+                <td>
+                    <lable for="Name" class="control-label">Person ID:</lable>
+                </td>
+                <td>
+                    <input type="text" class="form-control" @bind-value="Person.PersonID"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Name" class="control-label">First Name:</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" @bind-value="Person.FirstName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Name" class="control-label">Last Name:</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" @bind-value="Person.LastName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Name" class="control-label">Phone Number:</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" @bind-value="Person.PhoneNumber" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Name" class="control-label">Email:</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" @bind-value="Person.Email" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Name" class="control-label">Address Line 1:</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" @bind-value="Person.AddressLine1" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Name" class="control-label">Address Line 2:</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" @bind-value="Person.AddressLine2" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" class="btn btn-success" @onclick="(() => HandleValidSubmit())">Update</button>
+                </td>
+                <td></td>
+                <td>
+                   @if (!String.IsNullOrEmpty(Id))
+                  {
+                       <a @onclick="@Delete_Click" class="btn btn-danger">Delete</a>
+                  }
+                </td>
+            </tr>
+        </table>
+    </EditForm>
+        
+</div>
